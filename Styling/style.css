@@ -48,6 +48,19 @@ p {
   margin: 40px 0;
 }
 
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -149,6 +162,7 @@ body {
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 15px 0;
+  cursor: pointer;
 }
 
 #feature .fe-box:hover {
@@ -189,21 +203,18 @@ body {
   background-color: #fff2e5;
 }
 
-
-#product1{
+#product1 {
   text-align: center;
 }
 
-#product1 .pro-container{
+#product1 .pro-container {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
   flex-wrap: wrap;
-  
 }
 
-
-#product1 .pro{
+#product1 .pro {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
@@ -216,54 +227,86 @@ body {
   position: relative;
 }
 
-#product1 .pro img{
+#product1 .pro img {
   width: 100%;
   border-radius: 20px;
 }
 
-#product1 .pro:hover{
+#product1 .pro:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-#product1 .pro .desc{
+#product1 .pro .desc {
   text-align: start;
   padding: 10px 0;
 }
 
-#product1 .pro .desc span{
+#product1 .pro .desc span {
   color: #088178;
   font-size: 12px;
 }
 
-#product1 .pro .desc h5{
+#product1 .pro .desc h5 {
   padding-top: 7px;
   color: #1a1a1a;
   font-size: 14px;
 }
 
-#product1 .pro .desc i{
+#product1 .pro .desc i {
   font-size: 12px;
   color: rgb(243, 181, 25);
 }
 
-#product1 .pro .desc h4{
+#product1 .pro .desc h4 {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
   color: #088178;
 }
 
-#product1 .pro .cart{
+#product1 .pro .cart {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50px;
-  background-color:  #e8f6ea;
+  background-color: #e8f6ea;
   font-weight: 500;
   color: #088178;
   border: 1px solid #cce7d0;
   position: absolute;
   bottom: 20px;
   right: 10px;
+}
 
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(/Images/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4 {
+  color: #fff;
+  font-size: 16px;
+}
+
+#banner h2 {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+#banner h2 span {
+  color: #ef3636;
+}
+
+#banner button:hover {
+  background-color: #088178;
+  color: #fff;
 }
