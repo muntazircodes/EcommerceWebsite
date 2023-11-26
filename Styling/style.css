@@ -579,10 +579,15 @@ footer .copyright {
     display: none;
   }
   #hero {
-
     height: 70vh;
     padding: 0 80px;
     background-position: top 30% right 30%;
+  }
+  #feature {
+    justify-content: center;
+  }
+  #feature .fe-box {
 
+    margin: 15px 15px;
   }
 }
