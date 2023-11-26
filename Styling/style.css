@@ -606,4 +606,7 @@ footer .copyright {
   #banner3 .banner-box {
     width: 28%;
   }
+  #newsletter .form {
+    width: 70%;
+  }
 }
